@@ -46,10 +46,7 @@ class MovieDetailScreen extends StatelessWidget {
                 ),
                 child: Row(
                   children: [
-                    Center(
-                      child:
-                      Image.asset("Assets/Images/movieIcon.png", color: Colors.white,),
-                    ),
+                    Image.asset("Assets/Images/movieIcon.png", color: Colors.white,),
                   ],
                 ),
               ),
